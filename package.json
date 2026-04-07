@@ -1,0 +1,25 @@
+{
+  "name": "kayak-test-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + Cucumber.js BDD test automation for Kayak",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "HEADED=true cucumber-js",
+    "test:debug": "PWDEBUG=1 cucumber-js",
+    "test:dry": "cucumber-js --dry-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@cucumber/pretty-formatter": "^3.2.0",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "playwright": "^1.59.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}

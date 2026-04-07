@@ -1,0 +1,9 @@
+node_modules/
+dist/
+reports/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.env
+.claude/
+.playwright-mcp/
